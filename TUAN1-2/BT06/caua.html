@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cau 6 a</title>
+</head>
+<body>
+    <style>
+        .layout_table table{
+            width: 700px;
+            height: 700px;
+            border: solid 2px black;
+            margin-left: 300px;
+        }
+        .layout_table td{
+
+            border: solid 1px black;
+        }
+    </style>
+    <div class="layout_table">
+        <table>
+            <tr>
+                <td>1</td>
+                <td colspan="4" >2</td>
+            </tr>
+            <tr>
+                <td rowspan="3">3</td>
+                <td style="background-color: chocolate;">4</td>
+                <td style="background-color: chocolate;">5</td>
+                <td colspan="2" rowspan="2" style="background-color: yellow;">6</td>
+            </tr>
+            <tr>
+                <td style="background-color: chocolate;">7</td>
+                <td style="background-color: chocolate;">8</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: yellow;">9</td>
+                <td colspan="2" style="background-color: yellow;">10</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

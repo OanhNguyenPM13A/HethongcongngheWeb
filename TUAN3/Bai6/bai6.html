@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>bai6</title>
+    <style>
+        .container, .ro{
+            width:100%;
+        }
+        .row::before, row::after{
+            display: table;
+            content:""
+        }
+        .row::after{
+            clear:both;
+        }
+        .col1, .col2, .col3{
+            float: left;
+            width: 25.33333333%;
+            margin:1%;
+            padding:1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col1">
+                <p>Row1-Colum1</p>
+            </div>
+            <div class="col2>
+                <p>Row1-Colum2</p>
+            </div>
+            <div class="col3">
+                <p>Row1-Colum3</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+                <p>Row2-Colum1</p>
+            </div>
+            <div class="col2>
+                <p>Row2-Colum2</p>
+            </div>
+            <div class="col3">
+                <p>Row2-Colum3</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
