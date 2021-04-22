@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.stitched{
+	width: 100px;
+	margin: 5px;
+	color: #ffffff;
+	padding: 5px;
+	background: #0d90df;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.3em;
+	border: 2px dashed #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 0 4px #0d90df, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+	text-shadow: -1px -1px #aa3030;
+	font-weight: normal;
+	text-align: center;	
+}
+

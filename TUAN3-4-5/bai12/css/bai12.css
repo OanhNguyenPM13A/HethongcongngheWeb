@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+h1:before{
+	content: url(../img/bai1.png);		
+}
+h2:after{
+	content: url(../img/bai2.png);		
+}	
+

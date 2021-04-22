@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.header{
+  background-color:#483D8B;
+  height: 125px;
+}
+.header-left{
+    display: inline-flex;
+    margin: 10px;
+    height: 40px;
+    
+}
+.header-left  img{
+  margin-left: 20px;
+}
+.header-left h1,span{
+    color: white;
+    /* margin-left: 10px; */
+}
+.header-top{
+    float: right;
+    height: 30px;
+    width: 400px;
+    margin-top: 15px;
+}
+.header-top input{
+    width: 250px;
+    height: 25px;
+    border: solid 1px #1313ec;
+    color: white;
+    background-color: #03034d;
+    padding: 3px;
+}
+.header-top button{
+    border: solid 1px #1313ec;
+    background-color: #03034d;
+    height: 30px;
+    color: white;
+    padding: 3px;
+
+}
+.header-right{
+    width: 800px;
+    height: 30px;
+    float: right;
+    margin-top: 5px;
+}
+.header-right ul{
+    list-style: none;
+}
+.header-right li{
+    padding: 5px;
+    height: 35px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    background-color: #0059b3;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.section{
+    color:#0f0f0a;
+    margin-left: 23px;
+    width: 1000px; 
+}
+.section-content{
+    width: 1000px;
+    padding: 10px;
+    display: inline-flex;
+}
+.section-content input{
+    width: 300px;
+}
+.section-top{
+    border-bottom: dashed 2px black;
+    margin-left: 20px;
+}
+.section-info{
+    margin-left: 50px;
+    width: 400px;
+
+}
+.section-info h2{
+    border-bottom: dashed 2px black;
+    width: 300px;
+}
+table {
+    border-spacing: 10px;
+    width: 500px;
+}
+form button{
+    width:20%;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.section input{
+    height: 30px;
+}
+.section button, input, textarea,.aside{
+    background-color: #E6E6FA;
+    border: none;
+}
+.section-content .para p{
+    color: red;
+    text-shadow: 2px 2px 2px green;
+}
+.aside{
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aside img{
+    width: 80%;
+    margin: 20px;
+    margin-left: 40px;
+    border: solid 1px gray;
+}
+.content{
+    display: inline-flex;
+}
+.aside h2{
+    border-bottom: dashed 2px black;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+.aside p{
+    margin: 40px;
+    margin-top: 10px;
+}
+.aside a{
+    text-decoration: none;
+float: right;
+margin-right: 40px;
+color: blue;
+font-size: 20px;
+}
+.footer{
+    background-color: #483D8B;
+    height: 40px;
+    display: block;
+}
+.footer span{
+     margin-left: 15px;
+     font-size: 17px;
+     margin-top: 10px;
+}
+.footer #orther{
+    color: grey;
+}
+.tite{
+     height: 30px;
+}

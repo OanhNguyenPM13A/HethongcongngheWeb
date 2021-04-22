@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+.container .khung{
+	margin: 5px;
+	border: 2px solid #1717FF;
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+.container .khung img{
+	width: 200px;
+	height: 150px;
+	transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+}
+.container .khung p{
+	text-align: center;
+}
+
+.container .khung img:hover{
+	transform: scale(3,3);
+	-webkit-transform: scale(3,3);
+	-moz-transform: scale(3,3);
+	-o-transform: scale(3,3);
+	-ms-transform: scale(3,3);
+}
+
